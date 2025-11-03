@@ -3,7 +3,7 @@
 
 frappe.ui.form.on("Zatca ERPgulf Setting", {
 	refresh(frm) {
-       
+       console.log("testing from the custom app")
     },
     production_csid: function (frm) {
         frappe.call({
